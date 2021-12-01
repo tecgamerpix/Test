@@ -1,0 +1,11 @@
+name: translate.yml
+on:
+ issue:
+  types: [opened]
+ issue_comment:
+  types: [created]
+ 
+ job:
+ builds:
+ 
+ 
