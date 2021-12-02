@@ -6,6 +6,6 @@ on:
   types: [created]
   jobs: 
    queso:
-    runs-on: ubuntu-leatest
+    runs-on: centos-leatest
     steps:
       - uses: tomsun28/issues-translate-action@v2.6
