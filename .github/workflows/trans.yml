@@ -6,7 +6,7 @@ on:
   types: [created]
   jobs:
   queso:
-  name: trans
+  name: trans.yml
   runs-on: ubuntu-leatest
   steps:
   -uses: tomsun28/issues-translate-action@v2.6
