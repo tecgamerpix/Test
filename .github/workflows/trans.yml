@@ -4,7 +4,8 @@ on:
   types: [opened]
  issue_comment:
   types: [created]
-  jobs:queso:
+  jobs: 
+  queso:
   runs-on: ubuntu-leatest
   steps:
   -uses: tomsun28/issues-translate-action@v2.6
