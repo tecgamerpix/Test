@@ -4,8 +4,8 @@ on:
   types: [opened]
  issue_comment:
   types: [created]
-  jobs:
-  Build:
-  runs-on: ubuntu-leatest
-  steps:
+  jobs: 
+   queso:
+    runs-on: ubuntu-leatest
+     steps:
   - uses: tomsun28/issues-translate-action@v2.6
