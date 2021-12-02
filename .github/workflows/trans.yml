@@ -1,11 +1,12 @@
-name: trans
+name: trans.yml
 on:
  issues:
   types: [opened]
  issue_comment:
   types: [created]
-  jobs: 
+  jobs:
   queso:
+  name: trans
   runs-on: ubuntu-leatest
   steps:
   -uses: tomsun28/issues-translate-action@v2.6
