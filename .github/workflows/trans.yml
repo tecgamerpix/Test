@@ -5,7 +5,7 @@ on:
  issue_comment:
   types: [created]
   jobs:
-  build:
+  Build:
   runs-on: ubuntu-leatest
   steps:
   - uses: tomsun28/issues-translate-action@v2.6
