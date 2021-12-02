@@ -4,8 +4,7 @@ on:
   types: [opened]
  issue_comment:
   types: [created]
- 
- job:
+ jobs:
  build:
  runs-on: ubuntu-leatest
 steps: 
