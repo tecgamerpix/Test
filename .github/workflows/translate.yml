@@ -1,0 +1,12 @@
+name: translate.yml
+on:
+ issues:
+  types: [opened]
+ issue_comment:
+  types: [created]
+ 
+ job:
+ build:
+ runs-on: ubuntu-leatest
+steps: tomsun28/issues-translate-action@v2.6
+-
