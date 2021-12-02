@@ -1,4 +1,4 @@
-name: trans.yml
+name: trans
 on:
  issues:
   types: [opened]
@@ -6,6 +6,6 @@ on:
   types: [created]
   jobs: 
    queso:
-    runs-on: centos-leatest
+    runs-on: ubuntu-leatest
     steps:
       - uses: tomsun28/issues-translate-action@v2.6
