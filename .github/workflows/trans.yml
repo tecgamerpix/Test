@@ -5,7 +5,7 @@ on:
  issue_comment:
   types: [created]
   jobs: 
-   queso:
-    runs-on: ubuntu-leatest
-    steps:
-      - uses: tomsun28/issues-translate-action@v2.6
+  queso:
+  runs-on: ubuntu-leatest
+  steps:
+  -uses: tomsun28/issues-translate-action@v2.6
